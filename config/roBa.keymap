@@ -82,7 +82,7 @@
             bindings = <
 &kp Q             &kp W         &kp E         &kp R          &kp T                                                          &kp Y        &kp U  &kp I  &kp O      &kp P
 &kp A             &kp S         &kp D         &kp F          &kp G        &kp LS(LG(S))                      &kp MINUS      &kp H        &kp J  &kp K  &kp L      &kp SEMICOLON
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V          &kp B        &kp COLON                          &kp SEMICOLON  &kp N        &kp N  &kp M  &kp COMMA  &kp PERIOD
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V          &kp B        &kp COLON                          &kp QUESTION   &kp N        &kp N  &kp M  &kp COMMA  &kp PERIOD
 &bt BT_NXT        &kp LEFT_WIN  &kp LEFT_ALT  &kp LC(SPACE)  &lt 2 SPACE  &lt_to_layer_0 2 INT_MUHENKAN      &kp BACKSPACE  &lt 1 ENTER                           &kp DEL
             >;
 
@@ -129,10 +129,10 @@
 
         SCROLL {
             bindings = <
-&trans  &trans     &trans     &trans     &trans                      &trans  &trans     &trans     &trans        &trans
-&trans  &kp LC(Z)  &kp LC(C)  &kp LG(V)  &trans  &trans      &trans  &trans  &mkp LCLK  &mkp RCLK  &kp LA(LEFT)  &kp LA(RIGHT)
-&trans  &trans     &trans     &trans     &trans  &trans      &trans  &trans  &trans     &trans     &trans        &trans
-&trans  &trans     &trans     &trans     &trans  &trans      &trans  &trans                                      &trans
+&trans  &trans     &trans     &trans     &trans                      &trans  &trans    &trans    &trans        &trans
+&trans  &kp LC(Z)  &kp LC(C)  &kp LG(V)  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB2  &kp LA(LEFT)  &kp LA(RIGHT)
+&trans  &trans     &trans     &trans     &trans  &trans      &trans  &trans  &trans    &trans    &trans        &trans
+&trans  &trans     &trans     &trans     &trans  &trans      &trans  &trans                                    &trans
             >;
 
             sensor-bindings = <&inc_dec_kp 0 0>;
