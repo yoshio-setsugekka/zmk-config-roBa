@@ -82,7 +82,7 @@
             bindings = <
 &kp Q             &kp W         &kp E         &kp R                       &kp T                                                            &kp Y        &kp U  &kp I  &kp O      &kp P
 &kp A             &kp S         &kp D         &kp F                       &kp G        &bt BT_CLR_ALL                     &kp MINUS        &kp H        &kp J  &kp K  &kp L      &kp SEMICOLON
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                       &kp B        &kp COLON                          &kp QUESTION     &kp N        &kp N  &kp M  &kp COMMA  &kp PERIOD
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                       &kp B        &kp LS(SEMICOLON)                  &kp QUESTION     &kp N        &kp N  &kp M  &kp COMMA  &kp PERIOD
 &kp LEFT_CONTROL  &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 1 LC(SPACE)  &lt 2 SPACE  &lt_to_layer_0 3 INT_MUHENKAN      &lt 5 BACKSPACE  &lt 6 ENTER                           &kp DEL
             >;
 
