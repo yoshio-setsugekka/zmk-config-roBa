@@ -39,19 +39,24 @@
             key-positions = <12 13>;
         };
 
-        muhennkann {
-            bindings = <&to_layer_0 INT_MUHENKAN>;
-            key-positions = <11 10>;
+        MouseLeftKey {
+            bindings = <&mkp LCLK>;
+            key-positions = <18 19>;
         };
 
-        double_quotation {
-            bindings = <&kp DOUBLE_QUOTES>;
-            key-positions = <20 21>;
+        MouseRightKey {
+            bindings = <&mkp RCLK>;
+            key-positions = <20 19>;
         };
 
-        eq {
-            bindings = <&kp EQUAL>;
-            key-positions = <24 25>;
+        MouseSchrollUP {
+            bindings = <&msc SCRL_UP>;
+            key-positions = <6 7>;
+        };
+
+        MouseSchrollDown {
+            bindings = <&none>;
+            key-positions = <30 31>;
         };
     };
 
@@ -86,7 +91,7 @@
 &kp LEFT_CONTROL  &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 1 LC(SPACE)  &lt 2 SPACE  &lt_to_layer_0 3 INT_MUHENKAN      &lt 5 BACKSPACE  &lt 6 ENTER                           &kp DEL
             >;
 
-            sensor-bindings = <&inc_dec_kp DOWN UP>;
+            sensor-bindings = <&inc_dec_kp DOWN UP>, <&inc_dec_kp 0 0>;
         };
 
         FUNCTION {
