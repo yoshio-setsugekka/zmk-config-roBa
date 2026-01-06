@@ -55,7 +55,7 @@
         };
 
         MouseSchrollDown {
-            bindings = <&none>;
+            bindings = <&msc SCRL_DOWN>;
             key-positions = <30 31>;
         };
 
