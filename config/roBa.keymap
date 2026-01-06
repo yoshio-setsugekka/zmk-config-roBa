@@ -58,6 +58,16 @@
             bindings = <&none>;
             key-positions = <30 31>;
         };
+
+        BrouserBack {
+            bindings = <&mkp MB4>;
+            key-positions = <2 1>;
+        };
+
+        BrouserNext {
+            bindings = <&mkp MB5>;
+            key-positions = <2 3>;
+        };
     };
 
     macros {
@@ -125,19 +135,19 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB2  &mkp MB3  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB4  &mkp MB5  &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                &trans
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
             >;
         };
 
         SCROLL {
             bindings = <
-&trans  &trans     &trans     &trans     &trans                      &trans  &trans    &trans    &trans        &trans
-&trans  &kp LC(Z)  &kp LC(C)  &kp LG(V)  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB2  &kp LA(LEFT)  &kp LA(RIGHT)
-&trans  &trans     &trans     &trans     &trans  &trans      &trans  &trans  &trans    &trans    &trans        &trans
-&trans  &trans     &trans     &trans     &trans  &trans      &trans  &trans                                    &trans
+&trans  &trans     &trans     &trans     &trans                      &trans  &trans  &trans  &trans        &trans
+&trans  &kp LC(Z)  &kp LC(C)  &kp LG(V)  &trans  &trans      &trans  &trans  &trans  &trans  &kp LA(LEFT)  &kp LA(RIGHT)
+&trans  &trans     &trans     &trans     &trans  &trans      &trans  &trans  &trans  &trans  &trans        &trans
+&trans  &trans     &trans     &trans     &trans  &trans      &trans  &trans                                &trans
             >;
 
             sensor-bindings = <&inc_dec_kp 0 0>;
