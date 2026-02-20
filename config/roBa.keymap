@@ -4,6 +4,7 @@
 #include <dt-bindings/zmk/pointing.h>
 
 // OS設定を日本語キーボードのまま使用するための変換定義
+
 #define JP_DQUOTE       AT                // "
 #define JP_AMPERSAND    CARET             // &
 #define JP_QUOTE        AMPERSAND         // '
@@ -140,10 +141,10 @@
 
         NUM {
             bindings = <
-&kp PERIOD                  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                                          &kp LEFT_BRACKET  &kp CARET          &kp PLUS       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&kp LS(KP_MINUS)            &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp MINUS     &kp KP_NUMLOCK      &kp LS(INT_RO)  &kp EXCLAMATION   &kp RIGHT_BRACKET  &kp BACKSLASH  &kp DOLLAR            &kp PERCENT
-&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp ASTERISK  &kp SLASH           &kp INT_YEN     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp AT         &kp RIGHT_BRACE       &kp BACKSLASH
-&trans                      &trans           &trans           &trans           &trans        &trans              &trans          &trans                                                                    &kp PIPE
+&kp UNDER                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp COLON                                         &kp AMPERSAND     &kp CARET          &kp PLUS       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&kp LS(KP_MINUS)            &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp MINUS          &trans         &kp LS(INT_RO)  &kp EXCLAMATION   &kp RIGHT_BRACKET  &kp BACKSLASH  &kp DOLLAR            &kp PERCENT
+&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp DOUBLE_QUOTES  &kp SLASH      &kp INT_YEN     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp AT         &kp RIGHT_BRACE       &kp BACKSLASH
+&trans                      &trans           &trans           &trans           &trans             &trans         &trans          &trans                                                                    &kp PIPE
             >;
         };
 
