@@ -121,10 +121,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E         &kp R            &kp T                                                        &kp Y        &kp U  &kp I  &kp O      &kp P
-&kp A             &kp S         &kp D         &kp F            &kp G      &kp LC(LA(DELETE))                 &kp DEL        &kp H        &kp J  &kp K  &kp L      &kp SEMICOLON
-&mt LEFT_SHIFT Z  &mt LCTRL X   &kp C         &kp V            &kp B      &kp LS(SEMICOLON)                  &kp QUESTION   &kp N        &kp N  &kp M  &kp COMMA  &mt LEFT_SHIFT PERIOD
-&kp LEFT_CONTROL  &kp LEFT_WIN  &kp LEFT_ALT  &lt 3 LC(SPACE)  &kp SPACE  &lt_to_layer_0 2 INT_MUHENKAN      &kp BACKSPACE  &lt 6 ENTER                           &kp DELETE
+&kp Q             &kp W         &kp E         &kp R            &kp T                                                 &kp Y        &kp U  &kp I  &kp O      &kp P
+&kp A             &kp S         &kp D         &kp F            &kp G      &kp LC(LA(DELETE))          &kp DEL        &kp H        &kp J  &kp K  &kp L      &kp SEMICOLON
+&mt LEFT_SHIFT Z  &mt LCTRL X   &kp C         &kp V            &kp B      &kp LS(SEMICOLON)           &kp QUESTION   &kp N        &kp N  &kp M  &kp COMMA  &mt LEFT_SHIFT PERIOD
+&kp LEFT_CONTROL  &kp LEFT_WIN  &kp LEFT_ALT  &lt 3 LC(SPACE)  &kp SPACE  &lt_to_layer_0 2 GRAVE      &kp BACKSPACE  &lt 6 ENTER                           &kp DELETE
             >;
 
             sensor-bindings = <&inc_dec_kp DOWN UP>, <&inc_dec_kp 0 0>;
@@ -142,9 +142,9 @@
         NUM {
             bindings = <
 &kp UNDER                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp COLON                                           &kp PERCENT       &kp CARET          &kp AT                &kp AMPERSAND    &kp LEFT_BRACE
-&kp LS(KP_MINUS)            &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp MINUS          &trans         &kp LS(INT_RO)    &kp EXCLAMATION   &kp RIGHT_BRACKET  &kp ASTERISK          &kp PIPE         &kp PLUS
-&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp DOUBLE_QUOTES  &kp SLASH      &kp LEFT_BRACKET  &kp SINGLE_QUOTE  &kp SLASH          &kp LEFT_PARENTHESIS  &kp RIGHT_BRACE  &kp LANGUAGE_2
-&trans                      &trans           &trans           &trans           &trans             &trans         &trans            &trans                                                                      &kp GRAVE
+&kp LS(KP_MINUS)            &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp MINUS          &trans         &kp LS(INT_RO)    &kp EXCLAMATION   &kp RIGHT_BRACKET  &kp ASTERISK          &kp RIGHT_BRACE  &kp PLUS
+&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp DOUBLE_QUOTES  &kp SLASH      &kp LEFT_BRACKET  &kp SINGLE_QUOTE  &kp BACKSLASH      &kp LEFT_PARENTHESIS  &kp PIPE         &trans
+&trans                      &trans           &trans           &trans           &trans             &trans         &trans            &trans                                                                      &trans
             >;
         };
 
