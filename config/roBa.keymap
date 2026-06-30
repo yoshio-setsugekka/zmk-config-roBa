@@ -96,7 +96,7 @@
         };
 
         Upper {
-            bindings = <&kp LC(LS(KP_PLUS))>;
+            bindings = <&kp LC(LS(SEMI))>;
             key-positions = <7 8>;
         };
 
