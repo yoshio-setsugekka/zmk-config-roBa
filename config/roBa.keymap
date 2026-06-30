@@ -96,7 +96,7 @@
         };
 
         Upper {
-            bindings = <&kp RS(LC(PLUS))>;
+            bindings = <&kp LC(LS(KP_PLUS))>;
             key-positions = <7 8>;
         };
 
