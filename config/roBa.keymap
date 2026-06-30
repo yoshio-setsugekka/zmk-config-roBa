@@ -94,6 +94,16 @@
             bindings = <&mkp MB5>;
             key-positions = <2 3>;
         };
+
+        Upper {
+            bindings = <&kp RS(LC(PLUS))>;
+            key-positions = <7 8>;
+        };
+
+        Muhenkan {
+            bindings = <&kp INTERNATIONAL_5>;
+            key-positions = <31 32>;
+        };
     };
 
     macros {
